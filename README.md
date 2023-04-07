@@ -1,6 +1,7 @@
-# Задание 1
+# Тестовое задание от СБЕРа
+## Задание 1
 
-## mysql
+### mysql
 
 ```mysql
 SELECT name
@@ -9,7 +10,7 @@ ORDER BY age ASC
 LIMIT 3;
 ```
 
-## postgresql
+### postgresql
 
 ```postgresql
 SELECT name
@@ -24,7 +25,7 @@ ORDER BY age
 FETCH FIRST 3 ROWS ONLY;
 ```
 
-## sql server
+### sql server
 
 ```sql
 SELECT TOP 3 name
@@ -32,7 +33,7 @@ FROM employees
 ORDER BY age ASC;
 ```
 
-## oracle
+### oracle
 
 ```oracle
 SELECT * 
@@ -42,8 +43,8 @@ FROM (SELECT *
 WHERE ROWNUM <= 3;
 ```
 
-# Задание 2 
-## postgresql
+## Задание 2 
+### postgresql
 
 ```postgresql
 SELECT abonent, region_id, DATE(dttm) AS day
@@ -55,8 +56,8 @@ FROM (
 WHERE rn = 1;
 ```
 
-# Задание 3 
-## postgresql
+## Задание 3 
+### postgresql
 
 ```postgresql
 CREATE TABLE dict_item_prices (
@@ -81,8 +82,8 @@ SELECT
 FROM item_prices;
 ```
 
-# Задание 4 
-## postgresql
+## Задание 4 
+### postgresql
 
 ```postgresql
 SELECT 
@@ -100,8 +101,8 @@ HAVING
   SUM(td.item_number * ip.item_price) > 0;
 ```
 
-# Задание 5 
-## postgresql
+## Задание 5 
+### postgresql
 
 ```postgresql
 SELECT 
